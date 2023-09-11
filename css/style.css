@@ -4,18 +4,21 @@
     font-family: 'poppins', sans-serif;
  }
  body{
-    background-color: #212524;
+    /* background-color: #040404; */
     display: grid;
     height: 100vh;
     place-items: center;
  }
  .main{
-    width: 400px;
-    height: 500px;
-    background-color: rgb(153, 208, 248);
+    width: 435px;
+    height: 550px;
+    background-color: rgb(8, 8, 8);
     position: absolute;
     border: 5px solid black;
     border-radius: 12px 15px; 
+
+
+    
  }
  h1{
     text-align: center;
@@ -23,13 +26,13 @@
  .main input[type='text'] {
     width: 88%;
     position: relative;
-    height: 80px;
+    height: 100px;
     top: 5px;
     text-align: right;
     padding: 3px 6px;
     outline: none;
-    font-size: 40px;
-   background-color: rgb(198, 198, 200);
+    font-size: 44px;
+   background-color: rgb(240, 240, 245);
     display: flex;
     margin: auto;
     border-radius: 6px;
@@ -44,9 +47,9 @@
     top: 20px;
     height: 60px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 22px;
     transition: 0.5s;
-    background-color: #3c25ce;
+    background-color: #363535;
     border-radius: 6px;
     color: white;
  }
